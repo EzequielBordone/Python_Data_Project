@@ -24,7 +24,7 @@ For my analysis on the job market, I used several key tools:
 
 # The Analysis
 
-## 1. What are the most demanded skills for the top 3 most popular data roles?
+## 1. What are the most demanded skills for the top 3 most popular data roles in the world?
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
 
@@ -43,7 +43,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Top skills for Data Nerds](3_Project/Images/skill_demand_all_data_roles.png)
+![Visualization of Top skills for Data Nerds in Argentina](3_Project/Images/skill_demand_all_data_roles.png)
 
 
 ### Insights
@@ -75,27 +75,18 @@ plt.show()
 
 ### Insights:
 
-- SQL remains the most consistently demanded skill
-throughout the year, although it shows a gradual
-decrease in demand.
+- SQL remains the most consistently demanded skill throughout the year, although it shows a gradual decrease in demand.
 
-- Excel experienced a significant increase in
-demand starting around September, surpassing both
-Python and Tableau by the end of the year.
+- Excel experienced a significant increase in demand starting around September, surpassing both Python and Tableau by the end of the year.
 
-- Both Python and Tableau show relatively stable
-demand throughout the year with some fluctuations
-but remain essential skills for data analysts.
-Power BI, while less demanded compared to the
-others, shows a slight upward trend towards the
-year's end.
+- Both Python and Tableau show relatively stable demand throughout the year with some fluctuations but remain essential skills for data analysts. Power BI, while less demanded compared to the others, shows a slight upward trend towards the year's end.
 
 ## 3. How well do jobs and skills pay for Data Analysts
 
 #### Visualize Data
 
 ```python
-sns.boxplot(data=df_US_top6, x='salary_year_avg', y='job_title_short', order=job_order)
+sns.boxplot(data=df_ARG_top6, x='salary_year_avg', y='job_title_short', order=job_order)
 
 ticks_x = plt.FuncFormatter(lambda y, pos: f'{int(y/1000)}K')
 plt.gca().xaxis.set_major_formatter(ticks_x)
