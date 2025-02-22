@@ -43,7 +43,8 @@ plt.show()
 
 ### Results
 
-![Visualiation of Top skills for Data Nerds](3_Project\Images\skill_demand_all_data_roles.png)
+![Visualization of Top skills for Data Nerds](3_Project/Images/skill_demand_all_data_roles.png)
+
 
 ### Insights
 
@@ -70,7 +71,7 @@ plt.show()
 ### Results
 
 
-![Trending Top skills for Data Analysts in Argentina](3_Project\Images\skill_trend_DA.png)
+![Trending Top skills for Data Analysts in Argentina](3_Project/Images/skill_trend_DA.png)
 
 ### Insights:
 
@@ -103,7 +104,7 @@ plt.show()
 
 #### Results
 
-![Salary Distriutions of Data Jobs in Argentina](3_Project\Images\skill_analysis.png)*Boxplot visualizing tha salary distribution for the top 6 data job titles in Argentina.*
+![Salary Distriutions of Data Jobs in Argentina](3_Project/Images/skill_analysis.png)*Boxplot visualizing tha salary distribution for the top 6 data job titles in Argentina.*
 
 #### Insights
 
@@ -131,7 +132,7 @@ sns.barplot(data=df_DA_skills, x='median',
 
 plt.show()
 ```
-![The Highest Paid & Most In-Demand Skills for Data Analysts in Argentina](3_Project\Images\skills_vs_pay.png)*Two separate bar graphs visualizing the highest paid skills and most in deman skills for data analysts in Argentina.
+![The Highest Paid & Most In-Demand Skills for Data Analysts in Argentina](3_Project/Images/skills_vs_pay.png)*Two separate bar graphs visualizing the highest paid skills and most in deman skills for data analysts in Argentina.
 
 #### Insights:
 
@@ -156,7 +157,7 @@ plt.show()
 
 ```
 
-![Most Optimal Skills for Data Analysts in Argentina](3_Project\Images\optimal_skills.png)*A scatte plot visualizing the most optimal skills (high paying & high demand) for data analysts in Argentina*
+![Most Optimal Skills for Data Analysts in Argentina](3_Project/Images/optimal_skills.png)*A scatte plot visualizing the most optimal skills (high paying & high demand) for data analysts in Argentina*
 
 #### Insights:
 
