@@ -123,7 +123,7 @@ sns.barplot(data=df_DA_skills, x='median',
 
 plt.show()
 ```
-![The Highest Paid & Most In-Demand Skills for Data Analysts in Argentina](3_Project/Images/skills_vs_pay.png)*Two separate bar graphs visualizing the highest paid skills and most in deman skills for data analysts in Argentina.
+![The Highest Paid & Most In-Demand Skills for Data Analysts in Argentina](3_Project/Images/skills_vs_pay.png)*Two separate bar graphs visualizing the highest paid skills and most in deman skills for data analysts in Argentina.*
 
 #### Insights:
 
@@ -182,6 +182,6 @@ This project was not without its challenges, but it provided valuable learning o
 - **Balancing Breadth and Depth:** Deciding how deeply to dive into each analysis while maintaining a broad overview of the data landscape required constant balancing to ensure comprehensive coverage without getting lost in details.  
 - **Limited Job Market Data for Argentina:** One significant challenge was the lack of comprehensive data on Argentina's job market. This limitation may suggest that the dataset used was not entirely suitable for assessing local trends in skill demand and salaries, making it difficult to form a complete picture of career opportunities in the country.  
 
-# Conclusions
+# Conclutions
 
 Diving into the data analyst job market has been a fantastic learning experience.  As someone just starting out with Python and its related tools, I found this exploration particularly valuable.  It's been eye-opening to see the critical skills and trends shaping this field.  The insights I've gained are a great starting point, providing practical guidance as I take my first steps in data analytics.  I know continuous learning is key, and I'm eager to build on this foundation and further develop my Python skills in this exciting field.
